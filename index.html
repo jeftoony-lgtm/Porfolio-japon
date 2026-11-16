@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jefferson Rodriguez – Web designer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menú flotante: cada enlace baja suave a su sección -->
+  <nav class="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <!-- PORTADA -->
+    <section id="home" class="hero">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Hi, I’m Tony</p>
+        <h1>Web <span>designer</span></h1>
+        <p class="lead">Jefferson Rodriguez, from Uruguay to Tokyo. I build clear, fast, mobile-friendly websites, with a focus on hotels and hostels.</p>
+        <a class="btn" href="#projects">See my projects</a>
+      </div>
+      <div class="hero-art">
+        <!-- Foto real, asoma por detrás del dibujo -->
+        <figure class="real">
+          <img src="me.jpg" alt="Photo of Jefferson Rodriguez">
+          <figcaption>The real me</figcaption>
+        </figure>
+        <img class="avatar-img" src="tony.png" alt="Cartoon portrait of Jefferson Rodriguez">
+        <span class="chip c1">HTML</span>
+        <span class="chip c2">CSS</span>
+        <span class="chip c3">JavaScript</span>
+        <span class="chip c4">VS Code</span>
+        <span class="chip c5">Claude AI</span>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="about" class="block reveal">
+      <h2>About me</h2>
+      <p>I’m studying Information Technology Analysis at ORT Uruguay (graduating mid-2027) and I work as a freelance web designer. I use AI tools to move faster, and I check and understand every page I deliver.</p>
+      <p>Before this I worked in customer service and sales, at a travel agency and at Hertz. I design sites around what a guest needs to do: find a room, check a price and book.</p>
+    </section>
+
+    <!-- SERVICIOS Y HERRAMIENTAS -->
+    <section id="services" class="block reveal">
+      <h2>What I do</h2>
+      <div class="tiles">
+        <div class="tile"><b>Responsive websites</b><span>HTML, CSS, JavaScript</span></div>
+        <div class="tile"><b>Hotel and hostel sites</b><span>Rooms, prices, booking</span></div>
+        <div class="tile"><b>Customer service</b><span>Reservations, admin work</span></div>
+        <div class="tile"><b>Languages</b><span>Spanish, English, Portuguese</span></div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS APILADOS -->
+    <section id="projects" class="block">
+      <h2 class="reveal">Projects</h2>
+      <div class="stack">
+        <article class="proj" style="--i:0">
+          <div class="proj-top"><span class="num">01</span><div><b>Hostel website concept</b><small>Personal project</small></div><span class="pill">In progress</span></div>
+          <div class="shot s1"></div>
+        </article>
+        <article class="proj" style="--i:1">
+          <div class="proj-top"><span class="num">02</span><div><b>Personal project</b><small>Practice site</small></div><span class="pill">Coming soon</span></div>
+          <div class="shot s2"></div>
+        </article>
+        <article class="proj" style="--i:2">
+          <div class="proj-top"><span class="num">03</span><div><b>Personal project</b><small>Practice site</small></div><span class="pill">Coming soon</span></div>
+          <div class="shot s3"></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact" class="block reveal">
+      <h2>Let’s talk</h2>
+      <p>I’m available to start in Tokyo in early 2027.</p>
+      <a class="btn" href="mailto:jeftoony@gmail.com">jeftoony@gmail.com</a>
+      <footer>© 2026 Jefferson Rodriguez</footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
